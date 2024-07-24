@@ -51,7 +51,7 @@
             })}"
             class:hidden={entry.name.startsWith(".")}
             on:dblclick={async () =>
-              await invoke("open_ file", {
+              await invoke("open_file", {
                 path: await resolve($currentPath, entry.name),
               })}
           >

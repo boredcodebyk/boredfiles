@@ -8,8 +8,6 @@
   import { Home } from "lucide-svelte";
 
   async function updatePath(index: number) {
-
-
     let homePath = await homeDir();
 
     if ($currentPath.startsWith(homePath)) {
@@ -50,7 +48,7 @@
     {#if type() === "windows"}
       <Breadcrumb.Root>
         <Breadcrumb.List>
-          {#each $currentPath.split("/") as item, index}
+          {#each $currentPath.split("\\") as item, index}
             <Breadcrumb.Item>
               <Button
                 variant="ghost"

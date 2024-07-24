@@ -7,7 +7,7 @@
 
 </script>
 
-<div class="block border-t h-dvh ml-48">
+<div class="block border-t h-dvh">
   <BreadcrumbPath />
   <div class="mt-16 px-4 py-6 lg:px-8">
     {#if $currentPath === ""}

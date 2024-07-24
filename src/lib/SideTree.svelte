@@ -6,7 +6,7 @@
 
 </script>
 
-<ScrollArea class="h-dvh w-48 border-r fixed">
+<ScrollArea class="h-dvh w-48 border-r fixed left-0 bg-background backdrop-blur">
   <div class="p-4">
     <Button
       variant="ghost"

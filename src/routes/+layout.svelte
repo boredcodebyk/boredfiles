@@ -17,7 +17,10 @@
 <ModeWatcher />
 <div class="h-dvh">
   <SideTree />
-  <slot />
+  <div class="ml-48">
+
+    <slot />
+  </div>
 </div>
 
 <Command.Dialog bind:open>
